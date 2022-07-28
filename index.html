@@ -225,13 +225,33 @@
 
       <section style="height: 300px;" class="container d-flex justify-content-between align-items-center bg-info p-5 rounded-3 my-5">
         <div class="mt-5 text-white">
-          <h1>Ready to join?</h1>
+          <h1>Ready to join?</h1><br>
           <p >It is a long established fact that a reader will be distracted by the 
             readable content of a page when looking at its layout</p>
         </div>
         <div>
-          <button class="btn btn-light btn-lg">See More Courses</button>
+          <button type="button" class="btn btn-light btn-lg text-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Now</button>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Registration Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                We are delighted to have you with us. <br> Thanks for Registration
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section>
 
       <!-- ========== End  ========== -->
@@ -370,8 +390,9 @@
 
       <!-- ========== Companies  ========== -->
       <section class="container my-5 text-center">
+        
         <h1>Trusted by over 800+ companies</h1>
-        <div class="d-flex justify-content-between align-items-center my-5">
+        <div class="d-flex justify-content-between align-items-center my-4">
           <div><img src="images/company/company-1.png" alt=""></div>
           <div><img src="images/company/company-2.png" alt=""></div>
           <div><img src="images/company/company-3.png" alt=""></div>
@@ -380,8 +401,15 @@
           <div><img src="images/company/company-6.png" alt=""></div>
           
         </div>
+
       </section>
-      <!-- ========== Companies  ========== -->
+      <!-- ========== End Companies  ========== -->
+
+      <!-- Button trigger modal -->
+
+
+
+
 
     </main>
 
